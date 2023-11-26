@@ -12,7 +12,7 @@ namespace Classes
             myCar.Model = "Camry";
             myCar.Year = 2008;
 
-            Console.WriteLine("Toyota, Camry, 2008.");
+            Console.WriteLine($"{myCar.Make}, {myCar.Model}, {myCar.Year}");
         }
         
     }
